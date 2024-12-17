@@ -1,0 +1,25 @@
+{
+    "name": "@keystonehq/hw-app-sol",
+    "version": "0.1.1",
+    "description": "",
+    "main": "lib/index.js",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "aaronisme",
+    "license": "ISC",
+    "dependencies": {
+        "@keystonehq/bc-ur-registry": "0.7.0",
+        "@keystonehq/bc-ur-registry-sol": "^0.9.3",
+        "@keystonehq/hw-transport-error": "^0.0.2",
+        "@keystonehq/hw-transport-usb": "^0.1.1",
+        "@ngraveio/bc-ur": "^1.1.6",
+        "uuid": "^8.3.2"
+    },
+    "yalcSig": "9e5be09b2b30a60774e688cab55c8041"
+}

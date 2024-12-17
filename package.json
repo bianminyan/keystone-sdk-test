@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@keystonehq/hw-app-eth": "^0.4.4",
+    "@keystonehq/hw-app-sol": "file:.yalc/@keystonehq/hw-app-sol",
+    "@keystonehq/hw-transport-nodeusb": "^0.1.1",
+    "@keystonehq/hw-transport-webusb": "^0.5.1"
+  },
+  "name": "keystone-sdk-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
+    "babel-jest": "^29.7.0",
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
